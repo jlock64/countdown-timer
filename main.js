@@ -57,7 +57,7 @@ var countDownDate = new Date().getTime() + 302000
 // Update the count down every 1 second
 var x = setInterval(function() {
   
-  // Get todays date and time
+  // Get todays date and time in milliseconds
   var now = new Date().getTime()
   
   // Find the remainingTime between now and the count down date
